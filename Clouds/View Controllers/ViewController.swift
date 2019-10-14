@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        initGUI()
     }
 
+    // MARK: Private methods
+
+    private func initGUI() {
+        view.backgroundColor = .blue
+    }
 
 }
 
